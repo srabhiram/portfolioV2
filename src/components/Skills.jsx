@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <section
-      className="mt-20 px-3"
+      className="mt-16 px-3"
       id="skills"
       data-aos="fade-up"
       data-aos-delay="200"
