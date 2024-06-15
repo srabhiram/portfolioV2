@@ -14,7 +14,7 @@ const Skills = () => {
         <span className="block px-8 py-3 border-b-2 border-green-500 text-black font-bold text-left text-[24px]">
           Skills
         </span>
-        <div className="flex gap-[50px] flex-wrap mt-4 px-4 py-3">
+        <div className="flex items-center justify-center gap-[50px] flex-wrap mt-4 px-4 py-3">
           <i
             title="HTML5"
             class="fa-brands fa-html5 text-[70px] text-green-600"
