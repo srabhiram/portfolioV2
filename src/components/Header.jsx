@@ -19,7 +19,9 @@ let Header = () => {
   return (
     <header className="flex justify-between items-center px-3 py-4">
       <h1 className="font-extrabold text-4xl">
-        <span className="text-green-500">Abhi</span>ram
+        <Link to="/">
+          <span className="text-green-500">Abhi</span>ram
+        </Link>
       </h1>
       <div className="md:hidden" onClick={handleNav}>
         <i

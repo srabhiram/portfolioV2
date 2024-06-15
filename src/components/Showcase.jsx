@@ -1,4 +1,4 @@
-let Showcase = () => {
+const Showcase = () => {
   return (
     <section
       className="px-3 mt-10 flex flex-col md:flex-row md:justify-between md:items-center relative"
@@ -19,7 +19,9 @@ let Showcase = () => {
         <p className="text-[20px] leading-[1.6]">
           As a frontend developer, I'm specialize in creating the user
           interfaces and experiences that makes websites and web applications
-          visually appealing and user-friendly. my skills include Developing Web Applications using Javascript, ReactJS, NextJS to design responsive and interactive elements.
+          visually appealing and user-friendly. my skills include Developing Web
+          Applications using Javascript, ReactJS, NextJS to design responsive
+          and interactive elements.
         </p>
         <button className="text-xl bg-green-500 rounded px-6 py-2 text-white font-semibold hover:bg-green-400">
           <a href="mailto:sriramoji.abhiram@gmail.com">Hire Me</a>
