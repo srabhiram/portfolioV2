@@ -7,10 +7,6 @@ const ProjectsList = () => {
     <section className="flex justify-center items-center flex-col mt-[32px]">
       <span
         className="block px-8 py-3 border-b-2 border-green-500 text-black font-bold text-left text-[24px]"
-        data-aos="fade-up"
-        data-aos-delay="200"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in"
       >
         Projects
       </span>
@@ -25,7 +21,7 @@ const ProjectsList = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="box-shad p-[20px] rounded h-full bg-white"
+            className="box-shad p-[20px] rounded md:h-full bg-white"
           >
             <div className="flex justify-between items-center">
               <a href={project.github} target="_blank">
